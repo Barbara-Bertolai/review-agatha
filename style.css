@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Playfer Display";
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.review {
+  color: #8b0000;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 30px 0 10px;
+}
+
+
+img {
+  border: 8px solid rgb(129, 35, 35);
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+a {
+  color: #8b0000;
+  border: 8px  solid brown;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+#example{
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
